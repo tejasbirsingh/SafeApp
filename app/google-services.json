@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "667140825822",
+    "firebase_url": "https://otp-auth-b1265.firebaseio.com",
+    "project_id": "otp-auth-b1265",
+    "storage_bucket": "otp-auth-b1265.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667140825822:android:43c4858fad5b540758d84f",
+        "android_client_info": {
+          "package_name": "com.example.hackathonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667140825822-p40gep1ftrks57gs67ak3o9h09j5fujt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hackathonapp",
+            "certificate_hash": "bf18d769075691bda7583a43e3e95f7918f0ea2c"
+          }
+        },
+        {
+          "client_id": "667140825822-rqthgrtsso7cmskv9tfb7j7bs5al5423.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDm3ltMqHpR9J2MeyvQ29y9tEvulPM0Y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667140825822-rqthgrtsso7cmskv9tfb7j7bs5al5423.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667140825822:android:5583faf250bbb05458d84f",
+        "android_client_info": {
+          "package_name": "com.example.shivam.project1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667140825822-9871k9asvrppt0cqq713q12g204rnt8c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shivam.project1",
+            "certificate_hash": "bf18d769075691bda7583a43e3e95f7918f0ea2c"
+          }
+        },
+        {
+          "client_id": "667140825822-rqthgrtsso7cmskv9tfb7j7bs5al5423.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDm3ltMqHpR9J2MeyvQ29y9tEvulPM0Y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667140825822-rqthgrtsso7cmskv9tfb7j7bs5al5423.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667140825822:android:cfbf2fa56b181a0558d84f",
+        "android_client_info": {
+          "package_name": "net.smallacademy.SafetyAppOtp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667140825822-j3harate6u2r197q16dkk0kerh31v41m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.smallacademy.SafetyAppOtp",
+            "certificate_hash": "bf18d769075691bda7583a43e3e95f7918f0ea2c"
+          }
+        },
+        {
+          "client_id": "667140825822-rqthgrtsso7cmskv9tfb7j7bs5al5423.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDm3ltMqHpR9J2MeyvQ29y9tEvulPM0Y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667140825822-rqthgrtsso7cmskv9tfb7j7bs5al5423.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667140825822:android:6efee93b210163df58d84f",
+        "android_client_info": {
+          "package_name": "net.smallacademy.otpauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667140825822-1nvec565bcadhrv30uu7p7n13j81bfkc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.smallacademy.otpauth",
+            "certificate_hash": "bf18d769075691bda7583a43e3e95f7918f0ea2c"
+          }
+        },
+        {
+          "client_id": "667140825822-rqthgrtsso7cmskv9tfb7j7bs5al5423.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDm3ltMqHpR9J2MeyvQ29y9tEvulPM0Y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667140825822-rqthgrtsso7cmskv9tfb7j7bs5al5423.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

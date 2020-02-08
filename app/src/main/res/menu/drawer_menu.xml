@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/emergency"
+            android:icon="@drawable/ic_icon_awesome_plus"
+            android:title="Emergency"
+            />
+
+        <item
+            android:id="@+id/explore"
+            android:icon="@drawable/ic_icon_feather_target"
+            android:title="Explore" />
+
+        <item
+            android:id="@+id/safetyaudit"
+            android:icon="@drawable/ic_icon_awesome_check_double"
+            android:title="Safety Audit" />
+
+        <item
+            android:id="@+id/followme"
+            android:icon="@drawable/ic_icon_awesome_location_arrow"
+            android:title="Follow Me" />
+
+        <item
+            android:id="@+id/myposts"
+            android:icon="@drawable/ic_icon_material_local_post_office"
+            android:title="My Posts" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_icon_feather_settings"
+            android:title="Settings" />
+
+    </group>
+
+</menu>

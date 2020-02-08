@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/gradient"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:src="@drawable/womenlogo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="#FFF"
+            android:textSize="50sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout"
+            android:ems="10"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:padding="16dp"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:textSize="19sp">
+
+        </EditText>
+        <TextView
+            android:id="@+id/enter"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Otp"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <com.goodiebag.pinview.Pinview xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:password="false"
+            app:pinBackground="@drawable/layout"
+            app:pinHeight="40dp"
+            app:pinLength="6"
+            app:pinWidth="40dp"
+            app:cursorVisible="false"
+            app:forceKeyboard="true"
+            app:hint="0"
+            app:inputType="number"
+            android:id="@+id/pinview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="invisible"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:text="Sending OTP.."
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            />
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+
+            android:background="@drawable/layout"
+            android:elevation="20dp"
+            android:text="NEXT"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
